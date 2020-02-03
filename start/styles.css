@@ -47,6 +47,11 @@ html, body {
     padding: 15px 1em;
 }
 
+.home-main-nav > ul > li:first-child a:hover {
+    background-color: blue;
+    color: pink;
+}
+
 .home-main-nav > ul > li > a:hover {
     background-color: white;
     color: red;
