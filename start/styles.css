@@ -13,7 +13,7 @@ html, body {
 
 .cursive {
     font-family: 'Cookie', cursive;
-}
+  }
 
 .circle {
     border-radius: 50%;
@@ -57,7 +57,7 @@ html, body {
 .home-main-nav > ul > li > a {
     color: white;
     text-decoration: none;
-    padding: 15px 1em;
+    padding: 15px .5em;
 }
 
 .home-main-nav > ul > li:first-child a:hover {
