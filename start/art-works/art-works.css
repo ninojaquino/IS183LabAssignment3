@@ -1,5 +1,6 @@
 #about-container {
   height: 100%;
+  overflow: auto;
 }
 
 #about-container-inner {
@@ -108,6 +109,56 @@
   border-radius: 7px;
   padding: 1em;
 } 
+
+/* footer start */
+
+.top-footer {
+  margin-top: 200px;
+  background-color: #e7e7e7;
+}
+
+.footer-inner {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-column-gap: 1em;
+ width: 80%;
+ margin: 0px auto;
+ height: 350px;
+ padding: 10px 0px 0px;
+}
+
+
+.medium-txt {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+.footer-list {
+  list-style-type: none;
+}
+
+.footer-list > li {
+  margin-bottom: 15px;
+  overflow:auto;
+}
+
+ul.footer-list > li > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer-link {
+  padding: 15px 0px;
+  display: block;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+/* footer end */
+
 
   /* lab 1 css */
 
